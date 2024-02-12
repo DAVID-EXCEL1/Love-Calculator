@@ -8,11 +8,6 @@ function calculateLove() {
         fill.style.display = 'block'
         document.getElementById('result').innerHTML = '';
         show.innerHTML = '';
-        setTimeout(() => {
-            fill.style.display = 'none'
-        }, 5000)
-        console.error("Fill the space");
-        document.getElementById('result').innerHTML = '';
     } else if (lovePercentage == 0 || lovePercentage <= 40) {
         console.log('your love is in coma level😰🥶');
         document.getElementById('result').innerHTML = result;
